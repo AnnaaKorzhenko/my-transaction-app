@@ -1,42 +1,145 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+.container {
+     max-width: 400px;
+     margin: 0 auto;
+     padding: 16px;
+   }
+   .text-center {
+     text-align: center;
+   }
+   .mb-6 {
+     margin-bottom: 24px;
+   }
+   .mb-4 {
+     margin-bottom: 16px;
+   }
+   .text-xl {
+     font-size: 20px;
+     font-weight: 600;
+   }
+   .text-lg {
+     font-size: 18px;
+   }
+   .font-bold {
+     font-weight: 700;
+   }
+   .text-gray-600 {
+     color: #4b5563;
+   }
+   .text-gray-500 {
+     color: #6b7280;
+   }
+   .text-green-600 {
+     color: #16a34a;
+   }
+   .text-red-500 {
+     color: #ef4444;
+   }
+   .apple-pay-btn {
+     width: 100%;
+     background-color: #000;
+     color: #fff;
+     padding: 12px;
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+   }
+   .apple-pay-icon {
+     font-size: 20px;
+   }
+   .form-input {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #d1d5db;
+     border-radius: 8px;
+     font-size: 16px;
+     box-sizing: border-box;
+   }
+   .form-input.error {
+     border-color: #ef4444;
+   }
+   .input-group {
+     display: flex;
+     gap: 16px;
+     margin-bottom: 16px;
+   }
+   .input-group > div {
+     flex: 1;
+   }
+   label {
+     display: block;
+     font-size: 14px;
+     color: #4b5563;
+     margin-bottom: 4px;
+   }
+   .error-message {
+     font-size: 14px;
+     color: #ef4444;
+     margin-top: 4px;
+   }
+   .submit-btn {
+     width: 100%;
+     background-color: #16a34a;
+     color: #fff;
+     padding: 12px;
+     border-radius: 8px;
+     border: none;
+     font-size: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+     cursor: pointer;
+   }
+   .submit-btn:disabled {
+     background-color: #16a34a;
+     opacity: 0.7;
+     cursor: not-allowed;
+   }
+   .spinner {
+     animation: spin 1s linear infinite;
+     height: 20px;
+     width: 20px;
+     margin-right: 8px;
+   }
+   @keyframes spin {
+     100% {
+       transform: rotate(360deg);
+     }
+   }
+   .text-xs {
+     font-size: 12px;
+     color: #6b7280;
+     margin-top: 16px;
+     text-align: center;
+   }
+   .order-info {
+     margin-top: 24px;
+     padding: 16px;
+     border: 1px solid #d1d5db;
+     border-radius: 8px;
+   }
+   .text-sm {
+     font-size: 14px;
+   }
+   .order-info h3 {
+     font-size: 14px;
+     font-weight: 600;
+     margin: 0 0 8px;
+   }
+   .order-info p {
+     margin: 4px 0;
+   }
+   .footer {
+     text-align: center;
+     color: #6b7280;
+     margin-top: 16px;
+     font-size: 14px;
+   }
+   .py-10 {
+     padding: 40px 0;
+   }
